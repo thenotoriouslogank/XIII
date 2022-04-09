@@ -1,0 +1,39 @@
+Notes
+
+git:
+    ~/thirteen/13
+
+1) add
+2) commit
+3) push
+
+git status
+git add file.txt
+git config --global user.name "John Doe"
+git config --global user.email "jdoe@example.com"
+git commit -m "What the commit is for, what's changed, etc."
+git diff file.txt
+git add file.txt
+git status
+
+git log --oneline
+git revert [most recent change hash]
+
+REPOSITORY MUST ALREADY EXIST AT REMOTE
+
+create new repo from cli:
+
+echo "# reponame" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add [URL]
+git push -u origin main
+
+Push existing repo from cli:
+
+git remote add origin [URL]
+git branch -M main
+git push -u origin main
+
