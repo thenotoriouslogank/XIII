@@ -1,5 +1,9 @@
 Notes
 
+Systemd file located at:
+
+/etc/systemd/system/13.service
+
 git:
     ~/thirteen/13
 
