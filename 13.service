@@ -1,0 +1,14 @@
+[Unit]
+Description=Discord bot service
+After=network.target
+StartLimitIntervalSec=1
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=10
+User=
+ExecStart=
+
+[Install]
+WantedBy=multi-user.target
