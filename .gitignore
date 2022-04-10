@@ -2,7 +2,8 @@
 # Created by https://www.toptal.com/developers/gitignore/api/python,database
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,database
 
-/home/logank/Desktop/XIII/notes.txt
+notes.txt
+13.service
 
 ### Database ###
 *.accdb
